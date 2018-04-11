@@ -10,7 +10,7 @@ import pandas as pd
 import sklearn.model_selection
 import os, glob, shutil, math, time
 from nnrunfunction import  *
-# reset tf graph
+# reset tf graph  
 tf.reset_default_graph()
 tf.logging.set_verbosity(tf.logging.ERROR)
 
